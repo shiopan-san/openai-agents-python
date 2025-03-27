@@ -19,7 +19,7 @@ spanish_agent = Agent(
     name="Spanish",
     handoff_description="A spanish speaking agent.",
     instructions=prompt_with_handoff_instructions(
-        "You're speaking to a human, so be polite and concise. Speak in Spanish.",
+        "You're speaking to a human, so be polite and concise. Speak in Japanese.",
     ),
     model="gpt-4o-mini",
 )
